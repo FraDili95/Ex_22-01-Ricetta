@@ -1,0 +1,103 @@
+body{/*Il margine non mi permette la riga continua*/
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: space-between;
+}
+#Sottologo {
+    color: rgb(15, 91, 72);
+    font-size: 10px;
+}
+
+.logo{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.L-separatore
+    {
+    color: rgb(245, 173, 66);
+    background: rgb(245, 173, 66);
+    border: 0;
+    height: 1px;
+    margin: 0;
+    margin-top: 18px;
+    padding-right: 0;
+    padding-left: 0;
+    }
+
+h1{
+    margin-top: 55px;
+    font-size: 40px;
+}
+
+.sotto_TITOLO{
+    padding-left: 100px;
+}
+.focaccia{
+  border-radius: 20px;
+  width: 755px;
+  height: 500px;
+}
+.Autore_imm{
+    color: rgb(126, 126, 126);
+}
+/*UTILIZZO LA SEPARAZIONE DI TABLE PER LA LINETTA*/
+table{
+    border-spacing: 0;
+}
+  .sinistra {
+    border-right: 1px solid rgb(245, 173, 66);
+    padding-right: 380px;
+  }
+  .destra {
+    padding-left: 5px;
+    color: rgb(255, 85, 0);
+    text-align: left;
+  }
+  #link_inutile{
+    color: rgb(28, 112, 215) ;
+  }
+
+  #Ingredients {
+    text-align: left;
+    margin-left: -650px;
+  }
+  #sep_ing{
+   
+   height: 1;
+   margin-left: 380px;
+   margin-right: 380px;
+   color: rgb(207, 209, 255);
+   background-color: rgb(115, 101, 184);
+  }
+  .titoli_ingredienti{
+    margin-left: -630px;
+    margin-bottom: -10px;
+  }
+  li{
+    margin-left: -370px;
+  }
+  .lista2{
+    margin-left: 288px;
+  }
+  .metodo{
+    text-align: left;
+    margin-left: -675px;
+  }
+  #sep_ing2{
+   
+    height: 1;
+    margin-left: 380px;
+    margin-right: 380px;
+    color: rgb(207, 209, 255);
+    background-color: rgb(115, 101, 184);
+   }
